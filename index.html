@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Frontend Mentor | Conference ticket generator</title>
+
+  <link rel="stylesheet" href="./src/css/style.css">
+  <link rel="stylesheet" href="./src/css/reset.css">
+  <link rel="stylesheet" href="./src/css/responsive.css">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&display=swap" rel="stylesheet">
+
+</head>
+<body>
+  <img src="./assets/images/pattern-lines.svg" alt="Background decorative lines" class="imagem-sobreposta">
+
+  <img src="./assets/images/pattern-circle.svg" alt="Decorative circle pattern" class="pattern-circle">
+
+  <img src="./assets/images/pattern-squiggly-line-top.svg" alt="Decorative squiggly line top" class="pattern-line-top">
+
+  <img src="./assets/images/pattern-squiggly-line-bottom-desktop.svg" alt="Decorative squiggly line bottom for desktop" class="pattern-line-desktop">
+
+  <img src="./assets/images/pattern-squiggly-line-bottom-mobile-tablet.svg" alt="Decorative squiggly line bottom for mobile/tablet" class="pattern-line-mobile">
+
+  <main class="main">
+    <div class="logo-container">
+      <img src="./assets/images/logo-full.svg" alt="Coding Conf logo">
+    </div>  
+
+    <section class="hero-container" id="heroContainer">
+      <header class="hero-text">
+        <h1 class="title">Your Journey to Coding Conf 2025 Starts Here!</h1>
+
+        <p class="text">Secure your spot at next year's biggest coding conference.</p>
+      </header>
+
+      <form class="hero-form" id="myForm">
+        <label for="avatar" class="form-subtitle">Upload Avatar</label>
+
+      <label for="avatar" class="custom-upload">
+          <div class="square-upload" id="upload-icon">
+            <img src="./assets/images/icon-upload.svg" alt="Avatar upload icon" > 
+          </div>
+          <span class="text-upload" id="upload-instruction">Drag and drop or click to upload</span>
+
+          <div class="info-file-image" id="userPhone"></div>
+
+          <div class="buttons-images">
+            <button type="button" class="remove-image" id="btnRemove">
+              Remove image
+            </button>
+            <button type="button" class="change-image" id="btnChange">
+              Change image
+            </button>
+          </div>  
+        </label>
+
+        <input type="file" name="Avatar" id="avatar" class="avatar" accept=".jpg, .png">
+        
+        <div class="info-file" id="infoLarge">
+          <img src="./assets/images/icon-info.svg" alt="Info icon"> 
+          <small>Upload your photo (JPG or PNG, max size: 500KB).</small>
+        </div>
+
+        <div  class="error"
+        id="errorUpload"></div>
+
+        <div id="errorPhone" class="error-message"></div>
+        
+        <label for="name" class="form-subtitle">Full Name</label>
+        <input type="text" name="Full name" id="name">
+
+        <div class="error"
+        id="emptyErrorName"></div>
+
+        <label for="email" class="form-subtitle">Email Address</label>
+        <input type="text" name="Email Address" id="email" placeholder="example@email.com">
+
+        <div id="errorEmail" class="error-message"></div>
+
+        <div class="error" id="emptyErrorEmail"></div>
+
+        <label for="github" class="form-subtitle">GitHub Username</label>
+        <input type="text" name="GitHub username" id="github" placeholder="@yourusername">
+
+        <div class="error" id="emptyErrorGithub"></div>
+
+        <button type="button" class="button" id="btnGenerate">Generate My Ticket</button>
+      </form>
+    </section>
+    
+    <section id="newTicket"></section>
+  </main>
+   <footer class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge">Frontend Mentor</a>. 
+    Coded by <a href="#">Luciane</a>
+   </footer>
+
+  <script src="./src/js/index.js"></script>
+</body>
+</html>

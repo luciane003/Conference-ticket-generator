@@ -1,0 +1,380 @@
+@media (max-width: 1280px) {
+    .pattern-line-top {
+        left: 57%;
+    }
+
+    .pattern-line-desktop {
+        left: 0;
+    }
+}
+
+@media (max-width: 1024px) {
+    .pattern-line-top {
+        position: absolute;
+        right: 20px;
+        top: 40px;
+        width: 20rem;
+    }
+
+    .pattern-line-desktop {
+        bottom: 15px;
+        width: 22rem;
+    }
+
+    .pattern-circle {
+        left: 75%;
+        top: 50%;
+    }
+}
+
+@media (max-width: 930px) {
+    .hero-form {
+        max-width: 35rem;
+        min-height: 10rem;
+    }
+
+    .pattern-circle {
+        left: 70%;
+    }
+
+    .pattern-line-desktop {
+        bottom: 38px;
+    }
+}
+
+@media (max-width: 768px) {
+    body {
+        background-image: url('../../assets/images/background-mobile.png');
+        background-position: center;
+    }
+
+    .pattern-line-top {
+        top: 70px;
+    }
+
+    .hero-container {
+        min-height: 42rem;
+    }
+
+    .pattern-line-desktop {
+        display: none;
+    }
+
+    .pattern-line-mobile {
+        display: block;
+        position: absolute;
+        width: 20rem;
+        bottom: 25px;
+        left: 0;
+    }
+}
+
+@media (max-width: 540px) {
+    body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .pattern-line-top {
+        width: 8rem;
+        left: auto;
+        right: 0;
+    }
+
+    .hero-container {
+        min-height: 50rem;
+    }
+
+    .pattern-circle {
+        left: 58%;
+    }
+
+    .line-mobile {
+        width: 15rem;
+        bottom: 15px;
+    }
+
+    .attribution {
+        padding-left: 0;
+    }
+
+    .ticket-card {
+        width: 30rem;
+    }
+
+    .card-image {
+        width: 30rem;
+    }
+
+    .logo-name {
+        font-size: 29px;
+    }
+
+    .ticket-date {
+        font-size: 16px;
+    }
+
+    img.user-avatar {
+        width: 4rem;
+        height: 4rem;
+    }
+
+    .name {
+        font-size: 28px;
+        width: 17rem;
+    }
+
+    .name-github {
+        font-size: 18px;
+    }
+
+    .ticket-number {
+        top: 29%;
+    }
+}
+
+@media (max-width: 431px) {
+    .title {
+        font-size: 34px;
+    }
+
+    .pattern-circle {
+        left: 45%;
+    }
+
+    .attribution {
+        font-size: 12px;
+    }
+
+    .ticket-tittle {
+        font-size: 32px;
+        padding: 0 6px;
+    }
+
+    .text-ticket {
+        font-size: 22px;
+        padding: 0 5px;
+    }
+
+    .ticket-card {
+        width: 25rem;
+        height: 12rem;
+    }
+
+    .card-info {
+        width: 19.8rem;
+        height: 10rem;
+        margin: 5px;
+    }
+
+    .card-image {
+        width: 25rem;
+    }
+
+    .logo-name {
+        font-size: 2rem;
+    }
+
+    .two-section {
+        height: 4.5rem;
+        margin-top: 2rem;
+    }
+
+    img.user-avatar {
+        width: 4rem;
+        height: 4rem;
+    }
+
+    .name {
+        font-size: 27px;
+        width: 14.5rem;
+    }
+
+    .name-github {
+        font-size: 19px;
+    }
+
+    .ticket-number {
+        font-size: 1.3rem;
+        top: 38%;
+    }
+}
+
+@media (max-width: 391px) {
+    .title {
+        font-size: 30px;
+    }
+
+    .text {
+        font-size: 18px;
+    }
+
+    .pattern-circle {
+        left: 28%;
+    }
+
+    small {
+        font-size: 10px;
+    }
+
+    .ticket-card {
+        width: 22rem;
+        height: 12rem;
+    }
+
+    .ticket-tittle {
+        font-size: 30px;
+        padding: 0 5px;
+    }
+
+    .card-info {
+        width: 17rem;
+        height: 9rem;
+        margin: 5px;
+    }
+
+    .ticket-date {
+        font-size: 12px;
+    }
+
+    .logo-name {
+        font-size: 25px;
+    }
+
+    .avatar-phone img {
+        width: 3rem;
+        height: auto;
+    }
+
+    .avatar-phone {
+        width: 3.8rem;
+        padding-right: 0;
+    }
+
+    .name-avatar,
+    .two-info {
+        width: 12rem;
+    }
+
+    img.user-avatar {
+        width: 3rem;
+        height: 3rem;
+    }
+
+    .name {
+        width: 13rem;
+        font-size: 20px;
+    }
+
+    .name-github {
+        font-size: 13px;
+    }
+
+    .card-image {
+        width: 22rem;
+    }
+
+    .ticket-number {
+        top: 33%;
+    }
+}
+
+@media (max-width: 376px) {
+    .hero-text {
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+
+    .attribution {
+        font-size: 10px;
+    }
+
+    .ticket-card {
+        width: 21rem;
+    }
+
+    .card-image {
+        width: 21rem;
+    }
+
+    .ticket-tittle {
+        font-size: 28px;
+    }
+
+    .text-ticket {
+        font-size: 20px;
+    }
+
+    img.user-avatar {
+        width: 3rem;
+        height: 3rem;
+    }
+}
+
+@media (max-width: 321px) {
+    .title {
+        font-size: 25px;
+    }
+
+    .text {
+        font-size: 16px;
+    }
+
+    .ticket-tittle {
+        font-size: 29px;
+    }
+
+    .ticket-message {
+        min-height: 5rem;
+    }
+
+    .text-ticket {
+        font-size: 16px;
+        padding: 0 5px;
+    }
+
+    .ticket-card {
+        width: 20rem;
+    }
+
+    .card-image {
+        width: 20rem;
+    }
+
+    .card-info {
+        width: 15.2rem;
+    }
+
+    .one-section {
+        width: 15rem;
+    }
+
+    .two-section {
+        width: 15rem;
+        margin-top: 1rem;
+    }
+
+    .ticket-number {
+        top: 25%;
+        right: 5%;
+    }
+}
+
+@media (max-width:1024px) and (min-height:1000px) {
+    .main {
+        min-height: 98vh;
+    }
+
+    .hero-container {
+        margin-top: 13rem;
+    }
+
+    .pattern-line-desktop {
+        bottom: 25px;
+    }
+
+    .ticket {
+        margin-top: 10rem;
+    }
+}

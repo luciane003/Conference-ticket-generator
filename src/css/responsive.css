@@ -131,6 +131,7 @@
 
     .ticket-number {
         top: 29%;
+        right: 5%;
     }
 }
 
@@ -198,6 +199,7 @@
     .ticket-number {
         font-size: 1.3rem;
         top: 38%;
+        right: 6%;  
     }
 }
 
@@ -276,7 +278,8 @@
     }
 
     .ticket-number {
-        top: 33%;
+        top: 30%;
+        font-size: 1.2rem;
     }
 }
 

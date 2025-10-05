@@ -31,7 +31,7 @@ Check it out [here.](https://luciane003.github.io/Conference-ticket-generator/)
 </div><br>
 
 ## Preview
-
+![Project Preview](./design/ticket-gerenator.gif)
 ## Author
 - Luciane Kellen
 - Made as part of my programming learning journey!

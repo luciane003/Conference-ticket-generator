@@ -21,7 +21,7 @@ This project helped me strengthen my knowledge of JavaScript, HTML, and CSS.
 - Footer includes credit to Frontend Mentor
   
 ## Live Project
-Check it out [here.](https://luciane003.github.io/Conference-ticket-generator/)
+Check it out [here.](https://conference-ticket-generator-eight-khaki.vercel.app/)
 
 ## Technologies
 <div>
